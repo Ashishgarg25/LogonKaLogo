@@ -1,0 +1,75 @@
+/* CUSTOM CSS */
+
+body {
+    overflow: hidden;
+    background-color: #232d37;
+    margin: 0;
+}
+
+h2 {
+    font-family: montserrat, sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+h4 {
+    font-weight: lighter;
+    font-family: montserrat;
+    color: #ffffff;
+}
+
+.cap {
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.pg_body {
+    padding-top: 7%;
+    display: inline-flex;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 99999;
+    margin-left: -105px
+}
+
+.box1 {
+    width: 320px;
+    height: 200px;
+    transition: all .2s ease-in-out;
+    padding: 2% 3%;
+    box-sizing: border-box;
+    /*transition: all .2s ease-in-out;
+     border: 1px solid #ffffff;
+    padding: 55px 85px 0 85px;
+    border-radius: 10px;
+    outline: #ffffff;
+    width: 320px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(66, 200, 255, .05), 0 6px 20px 0 rgba(66, 200, 255, .05);
+    transition: all .2s ease-in-out;
+    max-width: 500px; */
+}
+
+.box1:hover {
+    color: #ffffff;
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+.box1>h5 {
+    margin-top: -23px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: montserrat;
+    color: #ffffff;
+}
+
+.logo {
+    width: 200px;
+    height: 38px;
+    position: absolute;
+    right: 83%;
+    top: 92%;
+}
